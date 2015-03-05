@@ -5,5 +5,7 @@ Generates a list of all grunt plugins as json and serves it via http.
 
 ## Usage
 
-node install
-node server.js
+```
+$ npm install
+$ node server.js
+```
