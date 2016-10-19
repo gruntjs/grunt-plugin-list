@@ -12,7 +12,8 @@ function condensePlugin(plugin) {
 		url: plugin.url,
 		keywords: keywords,
 		// only get created and modified date, leave out all of the version timestamps
-		time: {modified: plugin.time.modified, created: plugin.time.created}
+		time: {modified: plugin.time.modified, created: plugin.time.created},
+		gruntVersion: plugin.devDependencies && plugin.devDependencies.grunt
 	};
 }
 
